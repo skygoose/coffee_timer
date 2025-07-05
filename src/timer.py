@@ -10,7 +10,6 @@ def timer(
         brew: Brew,
         interval: Optional[int] = 45
     ):
-    print(brew.get_num_pours())
     total_time: int = interval * brew.get_num_pours()
     total_minutes: int = total_time // 60
     total_seconds: int = total_time % 60
