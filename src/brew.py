@@ -35,8 +35,23 @@ class Brew:
              f"coffee in a {self.water_ratio[0]}:{self.water_ratio[1]} ratio, "
              f"doing {self.num_pours} pours."
              )
-    
 
+    def get_brew_type(self):
+         return self.brew_type
+    
+    def get_coffee_weight(self):
+         return self.coffee_weight
+    
+    def get_beans(self):
+         return self.beans
+    
+    def get_water_ratio(self):
+         return self.water_ratio
+    
+    def get_num_pours(self):
+         return self.num_pours
+    
+    
     
 if __name__ == "__main__":
     # Test code for random brew
